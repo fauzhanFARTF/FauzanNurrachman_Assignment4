@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ab31f20ce1c49b98935a42df720ce362 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ab31f20ce1c49b98935a42df720ce362" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ab31f20ce1c49b98935a42df720ce362 = L.map(
+                "map_ab31f20ce1c49b98935a42df720ce362",
+                {
+                    center: [7.390888888888881, 3.8991666666666616],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b2e7e8909eca50355acdc68bbb5a45fa = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_b2e7e8909eca50355acdc68bbb5a45fa.addTo(map_ab31f20ce1c49b98935a42df720ce362);
+        
+    
+            var marker_b862af53241e91a7aed3a81f74118db5 = L.marker(
+                [7.36694444444444, 3.93055555555555],
+                {
+}
+            ).addTo(map_ab31f20ce1c49b98935a42df720ce362);
+        
+    
+            var icon_70cbf7cbca722131e3c245031cee445a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "tint",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dd1d3588afaa11b5ada5f2d94f2ca647 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_739fed7f398cc1a362fcc027711316ca = $(`<div id="html_739fed7f398cc1a362fcc027711316ca" style="width: 100.0%; height: 100.0%;">     <b>Susceptibility:</b> Very_High<br>     <b>Slope:</b> 67.42<br>     <b>Rainfall:</b> 65.16<br>     <b>TWI:</b> -3.58     </div>`)[0];
+                popup_dd1d3588afaa11b5ada5f2d94f2ca647.setContent(html_739fed7f398cc1a362fcc027711316ca);
+            
+        
+
+        marker_b862af53241e91a7aed3a81f74118db5.bindPopup(popup_dd1d3588afaa11b5ada5f2d94f2ca647)
+        ;
+
+        
+    
+    
+            marker_b862af53241e91a7aed3a81f74118db5.bindTooltip(
+                `<div>
+                     Titik 82354
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b862af53241e91a7aed3a81f74118db5.setIcon(icon_70cbf7cbca722131e3c245031cee445a);
+            
+    
+            var marker_888505c439ff0cdc6d340037bebf634d = L.marker(
+                [7.39472222222221, 3.89333333333333],
+                {
+}
+            ).addTo(map_ab31f20ce1c49b98935a42df720ce362);
+        
+    
+            var icon_eb5b830fb27b43174cecf0bb052597fe = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "tint",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f6d95a42a75991aeeeb3655e52567149 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_76e4ed7ea9f1ac8b0d186744f0a0f607 = $(`<div id="html_76e4ed7ea9f1ac8b0d186744f0a0f607" style="width: 100.0%; height: 100.0%;">     <b>Susceptibility:</b> High<br>     <b>Slope:</b> 46.69<br>     <b>Rainfall:</b> 76.86<br>     <b>TWI:</b> -8.25     </div>`)[0];
+                popup_f6d95a42a75991aeeeb3655e52567149.setContent(html_76e4ed7ea9f1ac8b0d186744f0a0f607);
+            
+        
+
+        marker_888505c439ff0cdc6d340037bebf634d.bindPopup(popup_f6d95a42a75991aeeeb3655e52567149)
+        ;
+
+        
+    
+    
+            marker_888505c439ff0cdc6d340037bebf634d.bindTooltip(
+                `<div>
+                     Titik 43777
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_888505c439ff0cdc6d340037bebf634d.setIcon(icon_eb5b830fb27b43174cecf0bb052597fe);
+            
+    
+            var marker_2bf83a3f0c7b9e3033bae6402ddd1ec3 = L.marker(
+                [7.42416666666666, 3.91416666666666],
+                {
+}
+            ).addTo(map_ab31f20ce1c49b98935a42df720ce362);
+        
+    
+            var icon_69a3a1d1cc550764c882bf760da6636b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "tint",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c8b53addee6b494916940a0a0204a631 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_953041299fb09e3ab98441b1498ee6ad = $(`<div id="html_953041299fb09e3ab98441b1498ee6ad" style="width: 100.0%; height: 100.0%;">     <b>Susceptibility:</b> No_Flood<br>     <b>Slope:</b> 71.23<br>     <b>Rainfall:</b> 81.33<br>     <b>TWI:</b> -9.27     </div>`)[0];
+                popup_c8b53addee6b494916940a0a0204a631.setContent(html_953041299fb09e3ab98441b1498ee6ad);
+            
+        
+
+        marker_2bf83a3f0c7b9e3033bae6402ddd1ec3.bindPopup(popup_c8b53addee6b494916940a0a0204a631)
+        ;
+
+        
+    
+    
+            marker_2bf83a3f0c7b9e3033bae6402ddd1ec3.bindTooltip(
+                `<div>
+                     Titik 10365
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2bf83a3f0c7b9e3033bae6402ddd1ec3.setIcon(icon_69a3a1d1cc550764c882bf760da6636b);
+            
+    
+            var marker_95abb49a533804c2c7c68487d0cd5834 = L.marker(
+                [7.41777777777777, 3.91111111111111],
+                {
+}
+            ).addTo(map_ab31f20ce1c49b98935a42df720ce362);
+        
+    
+            var icon_4216b149b538db4dfc50ed530c09d4ad = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "tint",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fad26cc5c51d285a66e95c42b2d3fa56 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_cfc42a9f4a9964927a38d219730dd38f = $(`<div id="html_cfc42a9f4a9964927a38d219730dd38f" style="width: 100.0%; height: 100.0%;">     <b>Susceptibility:</b> No_Flood<br>     <b>Slope:</b> 70.67<br>     <b>Rainfall:</b> 66.04<br>     <b>TWI:</b> -9.24     </div>`)[0];
+                popup_fad26cc5c51d285a66e95c42b2d3fa56.setContent(html_cfc42a9f4a9964927a38d219730dd38f);
+            
+        
+
+        marker_95abb49a533804c2c7c68487d0cd5834.bindPopup(popup_fad26cc5c51d285a66e95c42b2d3fa56)
+        ;
+
+        
+    
+    
+            marker_95abb49a533804c2c7c68487d0cd5834.bindTooltip(
+                `<div>
+                     Titik 16319
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_95abb49a533804c2c7c68487d0cd5834.setIcon(icon_4216b149b538db4dfc50ed530c09d4ad);
+            
+    
+            var marker_c0580891f2e9fcd74b7e13cfc6517a73 = L.marker(
+                [7.35083333333333, 3.84666666666666],
+                {
+}
+            ).addTo(map_ab31f20ce1c49b98935a42df720ce362);
+        
+    
+            var icon_995a7c1c33ca954b3c736a8107022be4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "tint",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e83378e8b2d961262f1bbf1e6e887fbf = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_7a89810ef5855089ed78beef3ecdadb4 = $(`<div id="html_7a89810ef5855089ed78beef3ecdadb4" style="width: 100.0%; height: 100.0%;">     <b>Susceptibility:</b> High<br>     <b>Slope:</b> 60.98<br>     <b>Rainfall:</b> 63.09<br>     <b>TWI:</b> -7.68     </div>`)[0];
+                popup_e83378e8b2d961262f1bbf1e6e887fbf.setContent(html_7a89810ef5855089ed78beef3ecdadb4);
+            
+        
+
+        marker_c0580891f2e9fcd74b7e13cfc6517a73.bindPopup(popup_e83378e8b2d961262f1bbf1e6e887fbf)
+        ;
+
+        
+    
+    
+            marker_c0580891f2e9fcd74b7e13cfc6517a73.bindTooltip(
+                `<div>
+                     Titik 104596
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c0580891f2e9fcd74b7e13cfc6517a73.setIcon(icon_995a7c1c33ca954b3c736a8107022be4);
+            
+    
+            var marker_9dfffaf487cf7235630bc6f47ea2d71a = L.marker(
+                [7.390888888888881, 3.8991666666666616],
+                {
+}
+            ).addTo(map_ab31f20ce1c49b98935a42df720ce362);
+        
+    
+            var icon_a291800cd9b5a645245511cffcedd278 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_555301ec3ae12504c29d9a324d75ce62 = L.popup({
+  "maxWidth": 400,
+});
+
+        
+            
+                var html_8194ef649606626d5625c281e1006f26 = $(`<div id="html_8194ef649606626d5625c281e1006f26" style="width: 100.0%; height: 100.0%;"> <b>Kesimpulan Visualisasi Titik Banjir Pluvial:</b><br> - Menampilkan <b>5 titik acak</b> dari dataset flood di Southwest Nigeria.<br> - Setiap marker menunjukkan nilai <b>Susceptibility, Slope, Rainfall, dan TWI</b>.<br> - Peta ini bertujuan memberikan gambaran spasial tanpa kepadatan berlebih.<br> - Data tidak mencakup seluruh titik untuk menjaga keterbacaan. </div>`)[0];
+                popup_555301ec3ae12504c29d9a324d75ce62.setContent(html_8194ef649606626d5625c281e1006f26);
+            
+        
+
+        marker_9dfffaf487cf7235630bc6f47ea2d71a.bindPopup(popup_555301ec3ae12504c29d9a324d75ce62)
+        ;
+
+        
+    
+    
+                marker_9dfffaf487cf7235630bc6f47ea2d71a.setIcon(icon_a291800cd9b5a645245511cffcedd278);
+            
+</script>
+</html>
