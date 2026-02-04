@@ -141,17 +141,3 @@ TASK4/
 ├── README.md
 └── requirements.txt
 ```
-
----
-
-## 🛠️ Tips Tambahan
-
-| Masalah                               | Solusi                                                                                        |
-| ------------------------------------- | --------------------------------------------------------------------------------------------- |
-| `Command 'python' not found`          | Pastikan Python sudah terinstal dan tersedia di PATH (coba gunakan `python3` jika diperlukan) |
-| `ModuleNotFoundError` setelah install | Pastikan kernel Jupyter yang dipilih sudah benar (lihat langkah 4 & 5)                        |
-| `requirements.txt` tidak ada          | Buat dari environment aktif: `pip freeze > requirements.txt`                                  |
-
----
-
-✨ Selamat belajar dan bereksperimen dengan **Spatial Python di SESIA4**!
