@@ -127,15 +127,19 @@ Pastikan ekstensi berikut sudah terinstal di VS Code:
 
 ## 📁 Struktur Folder (Referensi)
 
-```
-SESIA4/
-├── labs/
-│   ├── data_dummy_hidrokarbon.geojson
-│   └── day01_introduction_spatial_python.ipynb
-├── hidrokarbon.md
-├── webgis_mini_hidrokarbon2.html
-├── README.md          # Panduan ini
-└── requirements.txt   # Daftar library yang dibutuhkan
+```bash
+TASK4/
+├── assets
+│   ├── data_point_pluvial_flood_dataset.geojson
+│   └── data_point_pluvial_flood_dataset.qmd
+├── docs
+│   ├── Data Task Sesi 4.md
+│   └── Task Sesi 4_Introduction Python for Spatial Data.pdf
+├── labs
+│   ├── peta_flood_interaktif.html
+│   └── Task Sesi 4_Introduction Python for Spatial Data.ipynb
+├── README.md
+└── requirements.txt
 ```
 
 ---
