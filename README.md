@@ -1,12 +1,12 @@
 # Panduan Pemakaian
 
-Dokumen ini menjelaskan langkah-langkah menjalankan proyek **SESIA4** menggunakan _virtual environment_ Python dan Jupyter Notebook/Lab.
+Dokumen ini menjelaskan langkah-langkah menjalankan proyek **TASK4** menggunakan _virtual environment_ Python dan Jupyter Notebook/Lab.
 
 ---
 
 ## 1. Membuat Virtual Environment
 
-Jalankan perintah berikut di **direktori root proyek (SESIA4/)**:
+Jalankan perintah berikut di **direktori root proyek (TASK4/)**:
 
 ```bash
 # macOS / Linux
@@ -16,7 +16,7 @@ python -m venv .venv
 python -m venv .venv
 ```
 
-💡 Perintah ini akan membuat folder **.venv/** di dalam direktori **SESIA4/**. **Jangan menghapus folder ini**, karena berisi environment Python proyek.
+💡 Perintah ini akan membuat folder **.venv/** di dalam direktori **TASK4/**. **Jangan menghapus folder ini**, karena berisi environment Python proyek.
 
 ---
 
@@ -46,7 +46,7 @@ source .venv/bin/activate
 
 ## 3. Instal Dependensi
 
-Pastikan file **requirements.txt** berada di root proyek (**SESIA4/**), lalu jalankan:
+Pastikan file **requirements.txt** berada di root proyek (**TASK4/**), lalu jalankan:
 
 ```bash
 pip install -r requirements.txt
